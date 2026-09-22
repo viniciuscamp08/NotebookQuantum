@@ -9,13 +9,13 @@ $$
 Seja a série de Fourier:
 
 $$
-f(t) = \sum_{n=0}^{\infty} [a_n \cos(n\omega_o t) + b_n \sin(n\omega_o t)] \tag{1}
+f(t) = \sum_{n=0}^{\infty} \left[ a_n \cos(n\omega_o t) + b_n \sin(n\omega_o t) \right] \tag{1}
 $$
 
 Para entender esta função é necessário encontrar os índices $a_n$ e $b_n$. Para determinar $a_n$, é necessário supor que existem funções periódicas distintas inicialmente para analisar o seu comportamento, supondo que exista uma função $\cos(m\omega_o t)$, onde será multiplicado e integrado temporalmente em (1) na forma:
 
 $$
-\int_0^T f(t)\cos(m\omega_o t)\,dt = \sum_{n=0}^{\infty}\Big[a_n\int_0^T \cos(n\omega_o t)\cos(m\omega_o t)\,dt + b_n\int_0^T \cos(n\omega_o t)\sin(m\omega_o t)\,dt\Big]
+\int_0^T f(t)\cos(m\omega_o t)\,dt = \sum_{n=0}^{\infty} \left[ a_n\int_0^T \cos(n\omega_o t)\cos(m\omega_o t)\,dt + b_n\int_0^T \cos(n\omega_o t)\sin(m\omega_o t)\,dt \right]
 $$
 
 Observe que para este caso, existe uma simetria na segunda integral, resultando em valor **nulo**. Isso implica que a solução só será possível nas seguintes condições, que podem ser representadas pela **Delta de Kronecker**:
