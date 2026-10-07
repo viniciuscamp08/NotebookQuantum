@@ -5,3 +5,5 @@ Este repositório consiste em transcrever as aulas do curso de Mecânica Quânti
 QUALQUER AJUDA EM ESCRITA SERÁ BEM-VINDA OU FORMULAÇÃO DE ALGUMA COISA QUE ESTEJA FALTANDO ENTRE EM CONTATO
 
 email: viniciusaqc@gmail.com
+
+No momento estou apenas transcrevendo as notas de aulas. As vezes escrevo alguma coisa, mas no geral é apenas transcrição.
